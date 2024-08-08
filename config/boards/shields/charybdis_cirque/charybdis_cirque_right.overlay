@@ -24,7 +24,7 @@
 
 
 &pro_micro_spi {
-
+    compatible = "nordic,nrf-spim";
     status = "okay";
 
     miso-pin = <17>; // P0.17
