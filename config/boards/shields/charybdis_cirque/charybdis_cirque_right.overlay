@@ -33,9 +33,9 @@
     cs-gpios = <&gpio0 24 GPIO_ACTIVE_LOW>; // P0.24
 
     trackball: trackball@0 {
-        compatible = "pixart,paw3395";
+        compatible = "pixart,pmw3360";
         reg = <0>;
-        label = "Pixart paw3395";
+        label = "PMW3360";
         irq-gpios = <&gpio1 0 GPIO_ACTIVE_LOW>; // P1.00 = 32 + 0
         spi-max-frequency = <10000000>;
 
